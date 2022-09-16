@@ -1,8 +1,16 @@
 import './App.css';
+import Contact from './Components/Contact';
 
 function App() {
   return (
-    <h1>Test</h1>
+    <div className="container">
+      <h1 className='title'>0 birthday left</h1>
+
+    <Contact></Contact>
+
+    <button id="clear">Clear</button>
+
+    </div>
   );
 }
 
